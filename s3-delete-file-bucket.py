@@ -1,6 +1,6 @@
 import boto3
 
-bucket_name = 'sk-boto3-test-create'
+bucket_name = 'sk-test-boto-bucket'
 file_key = 'test.jpg'
 
 # Create an S3 client
@@ -22,6 +22,6 @@ except Exception as e:
     print(f"Error deleting bucket '{bucket_name}': {e}")
 
 
-# # Print out bucket names
-# for bucket in s3.buckets.all():
-#     print(bucket.name)
+# Print out bucket names
+for bucket in s3.buckets.all():
+    print(bucket.name)
