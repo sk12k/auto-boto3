@@ -12,7 +12,7 @@ table = dynamodb_resource.Table('Users')
 
 # Query a some data 
 response = table.query(
-    KeyConditionExpression=Key('user_id').eq('1234-5678') 
+    KeyConditionExpression=Key('user_id').eq('1234-5679') 
 )
 
 # Print the data out!
