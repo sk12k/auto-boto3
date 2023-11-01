@@ -18,7 +18,7 @@ def list_ec2_instances(region_name):
         return []
 
 def main():
-    region_name = 'eu-west-1'  # Change this to your desired region
+    region_name = 'us-east-1'  # Change this to your desired region
 
     instances = list_ec2_instances(region_name)
 
