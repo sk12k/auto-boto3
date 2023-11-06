@@ -52,7 +52,7 @@ json_file.write(json_conversion)
 
 # Close out the files 
 csv_file.close() 
-json_file.close()
+json_file.close()``
 
 # Upload finished file to s3 bucket 
 try:
